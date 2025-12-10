@@ -1,0 +1,10 @@
+{
+	"name": "Jugar",
+	"plugin-id": "Text",
+	"sid": 997754719976807,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

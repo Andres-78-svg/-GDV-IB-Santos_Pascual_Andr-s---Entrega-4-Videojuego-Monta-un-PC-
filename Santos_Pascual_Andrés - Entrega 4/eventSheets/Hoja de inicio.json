@@ -1,0 +1,77 @@
+{
+	"name": "Hoja de inicio",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 364461029528338,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Jugar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 150517197223362,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 290310867461285
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 243579138877821,
+					"parameters": {
+						"object": "Jugar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "Jugar",
+					"sid": 880959783095035,
+					"parameters": {
+						"size-pt": "31"
+					}
+				}
+			],
+			"sid": 771515490381300
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 270331380777459
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "Jugar",
+					"sid": 511491553822561,
+					"parameters": {
+						"size-pt": "30"
+					}
+				}
+			],
+			"sid": 734959379499623
+		}
+	],
+	"sid": 726853316307565
+}

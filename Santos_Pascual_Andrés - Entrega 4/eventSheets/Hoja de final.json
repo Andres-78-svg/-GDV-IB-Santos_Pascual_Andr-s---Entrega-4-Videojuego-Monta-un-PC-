@@ -1,0 +1,77 @@
+{
+	"name": "Hoja de final",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 248475749236859,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "reiniciar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 345490671261379,
+					"parameters": {
+						"layout": "Menu de inicio"
+					}
+				}
+			],
+			"sid": 172746428453779
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 804851265204626,
+					"parameters": {
+						"object": "reiniciar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "reiniciar",
+					"sid": 514480099420049,
+					"parameters": {
+						"size-pt": "31"
+					}
+				}
+			],
+			"sid": 809880873163659
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 125361325273734
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "reiniciar",
+					"sid": 227116178334830,
+					"parameters": {
+						"size-pt": "30"
+					}
+				}
+			],
+			"sid": 846197797807560
+		}
+	],
+	"sid": 461247528320804
+}
