@@ -56,7 +56,7 @@
 				{
 					"type": "Texto4",
 					"properties": {
-						"text": "ENHORABUENA HAS COMPLETADO EL JUEGO CORRECTAMENTE!!!!!!!!",
+						"text": "ENHORABUENA HAS COMPLETADO EL JUEGO Y HAS CONSTRUIDO EL PC CORRECTAMENTE!!!!!!!!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 60,
