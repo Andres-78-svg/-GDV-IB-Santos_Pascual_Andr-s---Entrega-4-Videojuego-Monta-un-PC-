@@ -100,7 +100,11 @@
 			"Teclado",
 			"FondoEnMosaico6",
 			"Texto4",
-			"reiniciar"
+			"reiniciar",
+			"videogameasset_",
+			"extension_",
+			"achievement_bullseye_objective_aim_goal_target_icon_",
+			"achivementbusinessmissionwinner_"
 		],
 		"subfolders": []
 	},

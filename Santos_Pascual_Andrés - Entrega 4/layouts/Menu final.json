@@ -92,8 +92,8 @@
 					"world": {
 						"x": 101,
 						"y": 39,
-						"width": 1078,
-						"height": 264,
+						"width": 1112,
+						"height": 353,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -149,6 +149,80 @@
 						"height": 52,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "achievement_bullseye_objective_aim_goal_target_icon_",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 46,
+					"sid": 303860509446531,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 303860509446531,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 177,
+						"y": 546,
+						"width": 314,
+						"height": 318,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "achivementbusinessmissionwinner_",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 47,
+					"sid": 382941053810778,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 382941053810778,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1047,
+						"y": 550,
+						"width": 282,
+						"height": 294,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
